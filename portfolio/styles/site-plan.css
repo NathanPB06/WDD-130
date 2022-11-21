@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #FFFFFF   ;
   --secondary-color: black ;
   --accent1-color: gray;
-  --accent2-color: yellow;
+  --accent2-color: #FFF49B;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Zen Antique";
@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: gray  ;
   --nav-link-color: black;
-  --nav-background-color: gray;
+  --nav-background-color: #FFF49B;
   --nav-hover-link-color: white;
   --nav-hover-background-color: white;
 }
