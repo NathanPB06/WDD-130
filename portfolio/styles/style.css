@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Zen+Antique&display=swap');
+
+#content {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100px;
+    font-family: "Inter", sans-serif, serif;
+    background-color: gray;
+}
+#logo-link {
+    justify-self: left;
+    align-self: center;
+    grid-row: 1/2;
+    height: 100px;
+    width: 100px;
+}
+#logo {
+    width:100px;
+    height: 100px;
+}
+body {
+    background-color: lightgray;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-align: center;
+    color: #000000;
+    align-self: center;
+    font-size: 30px;
+    padding: 65px;
+}
+nav a:hover {
+    background-color: white;
+    color: #000000;
+}
+#banner-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#banner-div img{
+    width: 1500px;
+    height: 500px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    z-index: -1;
+}
+#banner-div h1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif, serif;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+section img {
+    margin-top: 25px;
+    width: 1500px;
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+#p-box {
+    background-color: gray;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid #000000;
+    font-family: "Zen Antique", sans-serif, serif;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    background-color: gray;
+    font-family: "Inter", sans-serif, serif;
+}
+footer a {
+    text-align: center;
+    color: #000000;
+    align-self: center;
+    font-size: 30px;
+    padding: 20px;
+}
+footer a:hover {
+    background-color: white;
+    color: #000000;
+}
