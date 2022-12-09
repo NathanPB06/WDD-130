@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Zen+Antique&display=swap');
+
+#content {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100px;
+    font-family: "Inter", sans-serif, serif;
+    background-color: gray;
+}
+#logo-link {
+    justify-self: left;
+    align-self: center;
+    grid-row: 1/2;
+    height: 100px;
+    width: 100px;
+}
+#logo {
+    width:100px;
+    height: 100px;
+}
+body {
+    background-color: lightgray;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-align: center;
+    color: #000000;
+    align-self: center;
+    font-size: 30px;
+    padding: 65px;
+}
+nav a:hover {
+    background-color: white;
+    color: #000000;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    background-color: gray;
+    font-family: "Inter", sans-serif, serif;
+}
+footer a {
+    text-align: center;
+    color: #000000;
+    align-self: center;
+    font-size: 30px;
+    padding: 20px;
+}
+footer a:hover {
+    background-color: white;
+    color: #000000;
+}
+#banner-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#banner-div img {
+    width: 1500px;
+    grid-row: 1/6;
+    grid-column: 1/2;
+    margin-bottom: 25px;
+}
+#banner-div h1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: white;
+    justify-self: center;
+    font-size: 100px;
+    font-family: "Inter", sans-serif, serif;
+}
+#main {
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    grid-template-rows: 1fr auto 2fr; 
+}
+#background {
+    width: 1500px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+#education {
+    background-color: white;
+    opacity: .9;
+    border: black solid 2px;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#qualifications {
+    background-color: white;
+    opacity: .9;
+    border: black solid 2px;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#education h2, #qualifications h2 {
+    font-family: "Inter", sans-serif, serif;
+}
+#education, #qualifications {
+    font-family: "Zen Antique", sans-serif, serif;
+}
